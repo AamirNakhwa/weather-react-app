@@ -54,7 +54,7 @@ function WeatherCard(props) {
 
                         <div>
                             <span className="title">DAY/NIGHT</span>
-                            <span className="value">{current.is_day == 1 ? <span>Day <Icon.Sun /></span> : <span>Night <Icon.Moon /></span>}</span>
+                            <span className="value">{current.is_day === 1 ? <span>Day <Icon.Sun /></span> : <span>Night <Icon.Moon /></span>}</span>
                             <div className="clear"></div>
                         </div>
                         <div>
