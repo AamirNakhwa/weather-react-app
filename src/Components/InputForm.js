@@ -21,7 +21,7 @@ function InputForm(props) {
             return;
         }
         
-        const url = `http://api.weatherapi.com/v1/current.json?key=505cd211ccfb414b811153617230707&q=${city}&aqi=no`;
+        const url = `https://api.weatherapi.com/v1/current.json?key=505cd211ccfb414b811153617230707&q=${city}&aqi=no`;
         const response = await axios.get(url);
 
         cityInput.current.value = '';
