@@ -6,7 +6,6 @@ function WeatherCard(props) {
     const current = props.data.current;
 
     return (
-            
         <div className="container">
             <div className="weather-side">
                 <div className="weather-gradient">
@@ -21,7 +20,7 @@ function WeatherCard(props) {
                     <span className="location">{location.localtime}</span>
                 </div>
                 <div className="weather-container">
-                    <img src={current.condition.icon} />
+                    <img src={current.condition.icon} alt={current.condition.text} />
                     <h1 className="weather-temp">
                     {current.temp_c}°C
                     </h1>
