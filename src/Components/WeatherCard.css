@@ -115,3 +115,16 @@ span.title {
 small.time-stamp {
     color: #80bae9;
 }
+
+.error-container {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #9E9E9E;
+}
+
+.error-container span{
+    color: red;
+    font-size: 26px;
+}
