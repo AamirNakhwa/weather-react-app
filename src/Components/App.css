@@ -37,6 +37,15 @@ body {
 
 }
 
+.container {
+  cursor: pointer;
+  transition: .3s;
+}
+.container:hover {
+  outline: 8px solid #4ECDC4;
+  outline-offset: 14px;
+}
+
 .input_container h1 {
   line-height: 20px;
   letter-spacing: 2px;
