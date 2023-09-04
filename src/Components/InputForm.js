@@ -46,7 +46,7 @@ function InputForm(props) {
             <form className="input_form" onSubmit={submitHandler}>
                 <div className="input-group">
                     <input type="text" className="form-control" name="city" placeholder="Enter city here"
-                        ref={cityInput}
+                        autoComplete="off" ref={cityInput}
                     />
                     <span className="input-group-btn">
                         <input type="submit" value="Submit" className="btn btn-default" />
